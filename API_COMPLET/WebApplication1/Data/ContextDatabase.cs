@@ -30,7 +30,7 @@ namespace WebApplication1.Data
                 .HasMaxLength(128);
 
                 /// Index unique sur l'email
-                entity.HasIndex(u => u.Email).IsUnique();
+                entity.HasIndex(u => u.Email).IsUnique();//(ç)
 
                 // Relation 1-to-Many
                 entity.HasMany(u => u.ListAddresses)

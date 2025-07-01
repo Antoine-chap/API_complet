@@ -57,6 +57,17 @@ namespace WebApplication1.Data.Migrations
                     b.HasIndex("UserId");
 
                     b.ToTable("Addresses");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            Country = "Angleterre",
+                            StreetNumber = "221B Baker Street",
+                            Town = "Londre",
+                            UserId = 1,
+                            ZipCode = 75752
+                        });
                 });
 
             modelBuilder.Entity("WebApplication1.Entities.User", b =>

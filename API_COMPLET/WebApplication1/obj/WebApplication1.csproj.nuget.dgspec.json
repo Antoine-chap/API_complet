@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ashur\\stock\\Cshapr_API\\API_COMPLET\\WebApplication1\\WebApplication1.csproj": {}
+    "C:\\Users\\Shishi\\Desktop\\Wozniak\\API_complet\\API_COMPLET\\WebApplication1\\WebApplication1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ashur\\stock\\Cshapr_API\\API_COMPLET\\WebApplication1\\WebApplication1.csproj": {
+    "C:\\Users\\Shishi\\Desktop\\Wozniak\\API_complet\\API_COMPLET\\WebApplication1\\WebApplication1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ashur\\stock\\Cshapr_API\\API_COMPLET\\WebApplication1\\WebApplication1.csproj",
+        "projectUniqueName": "C:\\Users\\Shishi\\Desktop\\Wozniak\\API_complet\\API_COMPLET\\WebApplication1\\WebApplication1.csproj",
         "projectName": "WebApplication1",
-        "projectPath": "C:\\Users\\ashur\\stock\\Cshapr_API\\API_COMPLET\\WebApplication1\\WebApplication1.csproj",
-        "packagesPath": "C:\\Users\\ashur\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ashur\\stock\\Cshapr_API\\API_COMPLET\\WebApplication1\\obj\\",
+        "projectPath": "C:\\Users\\Shishi\\Desktop\\Wozniak\\API_complet\\API_COMPLET\\WebApplication1\\WebApplication1.csproj",
+        "packagesPath": "C:\\Users\\Shishi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Shishi\\Desktop\\Wozniak\\API_complet\\API_COMPLET\\WebApplication1\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\ashur\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Shishi\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -55,6 +55,14 @@
               "target": "Package",
               "version": "[9.0.5, )"
             },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.Proxies": {
+              "target": "Package",
+              "version": "[9.0.6, )"
+            },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[9.0.6, )"
@@ -64,6 +72,18 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[9.0.6, )"
+            },
+            "Scalar.AspNetCore": {
+              "target": "Package",
+              "version": "[2.5.3, )"
+            },
+            "Swashbuckle": {
+              "target": "Package",
+              "version": "[5.6.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[9.0.1, )"
             }
           },
           "imports": [
